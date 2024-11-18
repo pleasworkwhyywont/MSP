@@ -6,7 +6,5 @@ edition = "2021"
 
 [[bin]]
 name = "hello_remote_world"
-path = "test-project/src/main.rs"
+path = "MP/src/main.rs"
 [dependencies]
-num-traits = "0.2"
-#![feature(box_into_inner)]
