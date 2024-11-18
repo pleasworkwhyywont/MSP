@@ -2,7 +2,11 @@
 name = "hello_remote_world"
 version = "0.1.0"
 authors = ["VS Code <vscode@microsoft.com>"]
+edition = "2021"
 
 [[bin]]
 name = "hello_remote_world"
 path = "test-project/src/main.rs"
+[dependencies]
+num-traits = "0.2"
+#![feature(box_into_inner)]
